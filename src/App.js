@@ -7,7 +7,11 @@ import Searchstudent from './component/Searchstudent';
 
 function App() {
   return (
-    <Searchstudent/>
+    <div>
+      <Searchstudent/>
+      <Addstudent/>
+    </div>
+    
   );
 }
 
